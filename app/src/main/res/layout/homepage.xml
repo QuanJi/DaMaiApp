@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/ic_2" />
+
+        <TextView
+            android:id="@+id/location"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2.2"
+            android:text="万州区"
+            android:textSize="30dp" />
+
+        <EditText
+            android:id="@+id/search"
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            android:background="@drawable/edit"
+            android:hint="张国荣"
+            android:textSize="34dp"
+            android:layout_weight="2.2"
+            android:inputType="text"
+            android:lines="1"
+
+            />
+
+
+        <ImageView
+            android:id="@+id/btn_search"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_search" />
+    </LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+        <include
+            layout="@layout/imagecycle"/>
+        <include
+            layout="@layout/navigation_bar"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+<!--
+  <android.support.v4.view.ViewPager
+    android:layout_height="200dp"
+    android:layout_width="match_parent"/>-->
+
+   <!-- <android.support.v7.widget.RecyclerView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        />-->
+</LinearLayout>
