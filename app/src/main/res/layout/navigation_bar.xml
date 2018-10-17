@@ -138,7 +138,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
-                android:text="曲苑杂坛"
+                android:text="娱乐休闲"
                 />
         </LinearLayout>
 
@@ -156,7 +156,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
-                android:text="曲苑杂坛"
+                android:text="电影"
                 />
         </LinearLayout>
 

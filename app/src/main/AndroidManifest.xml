@@ -19,6 +19,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".LocationChooseActivity"></activity>
+        <activity android:name=".VocalCocertActivity"></activity>
     </application>
 
 </manifest>

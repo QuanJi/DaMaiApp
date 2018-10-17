@@ -9,6 +9,9 @@ import android.view.MenuItem;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import java.util.List;
+
+import Entity.ScrollPage;
 import fragment.Findpage;
 import fragment.Homepage;
 import fragment.Mypage;
@@ -79,5 +82,6 @@ public class MainActivity extends AppCompatActivity {
 
         transaction.commit();
     }
+
 }
 

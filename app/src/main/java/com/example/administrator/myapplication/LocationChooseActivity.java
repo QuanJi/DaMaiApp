@@ -32,6 +32,7 @@ public class LocationChooseActivity extends AppCompatActivity {
 
         RecyclerView recyclerView=(RecyclerView)findViewById(R.id.location_choose);
         LinearLayoutManager layoutManager=new LinearLayoutManager(this);
+       // layoutManager.setOrientation(LinearLayoutManager.HORIZONTAL);
         recyclerView.setLayoutManager(layoutManager);
         LocationAdapter adapter=new LocationAdapter(locationList);
         recyclerView.setAdapter(adapter);
